@@ -12,7 +12,7 @@ import { Agent } from "@atproto/api";
  * @param invite The invite code of the new account (optional depending on the PDS)
  * @returns Agent object of the new account
  */
-export default async function finalize(
+export default async function createMigration(
     agent: Agent,
     service: string,
     handle: string,
